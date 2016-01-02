@@ -1,0 +1,32 @@
+{
+  "name": "href-type",
+  "version": "1.0.0",
+  "description": "Test whether an href string is absolute, relative, protocol-relative, mailto:, tel:, sms:, etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "github:zeke/href-type",
+  "keywords": [
+    "href",
+    "url",
+    "absolute",
+    "protocol",
+    "relative",
+    "mailto",
+    "links",
+    "anchor",
+    "scraping",
+    "html"
+  ],
+  "author": "zeke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeke/href-type/issues"
+  },
+  "homepage": "https://github.com/zeke/href-type#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
