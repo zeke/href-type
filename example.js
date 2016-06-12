@@ -1,4 +1,4 @@
-const hrefType = require('./')
+const hrefType = require('.')
 
 hrefType('mailto:zeke@sikelianos.com')  // mailto
 hrefType('tel:+15054592942')            // tel
