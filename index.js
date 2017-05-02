@@ -14,5 +14,6 @@ module.exports = function hrefType(href){
   if(contains(href, '://')) return 'protocol'
   if(startsWith(href, '//')) return 'protocolRelative'
   if(startsWith(href, '/')) return 'rooted'
+  if(startsWith(href, '#')) return 'fragment'
   return 'relative'
 }

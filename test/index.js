@@ -13,6 +13,7 @@ const examples = [
   ['irc://irc.example.com', 'protocol'],
   ['/foo/bar.html', 'rooted'],
   ['baz/qux.css', 'relative'],
+  ['#about-us', 'fragment']
 ]
 
 describe('href-type', function(){
