@@ -4,8 +4,6 @@ Test whether an href string is absolute, relative, protocol-relative, mailto:, t
 
 ## Installation
 
-Download node at [nodejs.org](http://nodejs.org) and install it, if you haven't already.
-
 ```sh
 npm install href-type --save
 ```
@@ -13,7 +11,7 @@ npm install href-type --save
 ## Usage
 
 ```js
-const hrefType = require("href-type")
+const hrefType = require('href-type')
 
 hrefType('mailto:zeke@sikelianos.com')  // mailto
 hrefType('tel:+15054592942')            // tel

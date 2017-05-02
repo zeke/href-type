@@ -4,7 +4,7 @@
   "description": "Test whether an href string is absolute, relative, protocol-relative, mailto:, tel:, sms:, etc",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha && standard && standard-markdown"
   },
   "repository": "https://github.com/zeke/href-type",
   "keywords": [

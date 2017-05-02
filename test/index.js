@@ -16,18 +16,17 @@ const examples = [
   ['#about-us', 'fragment']
 ]
 
-describe('href-type', function(){
-  it('is a function', function() {
+describe('href-type', function () {
+  it('is a function', function () {
     expect(hrefType).to.be.a('function')
   })
 
-  examples.forEach(function(example){
+  examples.forEach(function (example) {
     var input = example[0]
     var output = example[1]
     var type = example[2] || example[1]
-    it(`detects ${type} links`, function() {
+    it(`detects ${type} links`, function () {
       expect(hrefType(input)).to.equal(output)
     })
   })
-
 })
