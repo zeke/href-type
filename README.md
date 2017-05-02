@@ -1,6 +1,6 @@
 # href-type
 
-Test whether an href string is absolute, relative, protocol-relative, mailto:, tel:, sms:, etc
+Test whether an href string is absolute, relative, protocol-relative, #fragment, mailto:, tel:, sms:, etc
 
 ## Installation
 
