@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "repository": "github:zeke/href-type",
+  "repository": "https://github.com/zeke/href-type",
   "keywords": [
     "href",
     "url",
@@ -21,10 +21,6 @@
   ],
   "author": "zeke",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/zeke/href-type/issues"
-  },
-  "homepage": "https://github.com/zeke/href-type#readme",
   "devDependencies": {
     "chai": "^3.4.1",
     "mocha": "^2.3.4"
